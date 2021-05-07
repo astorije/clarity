@@ -156,3 +156,7 @@ setCustomElements(customElements);
 // We have this here since storybook does not have a easy way to set the <html> element in demos
 // The token system generates a base 16px set of variables for apps that may not be able to easily set the base font to 125%
 document.body.setAttribute('cds-text', 'body');
+
+// For testing purposes only
+// Open http://localhost:6006/?path=/story/stories-accordion-panel--accordion-panel-api to see results
+document.body.setAttribute('style', 'color: red; font-size: 45px; font-weight: normal');
